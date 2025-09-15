@@ -4,31 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Editor/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Editor/bootstrap.min.css">
     <title>Aloitus</title>
-    <link rel="stylesheet" href="Commander.css">
 </head>
+<style>
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        background-color: black;
+        padding: 10px;
+    }
+    a {
+        color: white;
+        font-size: 18px;
+        text-shadow: 0 0 20px cyan, 0 0 20px cyan, 0 0 20px cyan, 0 0 5px white, 0 0 10px white;
+        text-decoration: none;
+    }
+    body {
+        background-color: black;
+    }
+</style>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-2">
-                <a class="host" href="sivu1.html">Tony Ruotsalainen</a>
-            </div>
-            <div class="col-sm-2">
-                <a class="Orange" href="sivu2.html">Opinnot</a>
-            </div>
-            <div class="col-sm-2">
-                <a class="Orange" href="sivu3.html">Harrastukset</a>
-            </div>
-            <div class="col-2">
-                <a class="Orange" href="sivu4.html">Työkokemus</a>
-            </div>
-            <div class="col-2">
-                <a class="Orange" href="sivu5.html">Työnäytteet</a>
-            </div>
-            <div class="col-2">
-                <a href="https://github.com/Deadlyweather/Deadlyweather.git">github</a>
-            </div>
-        </div>
-    </div>
+    <nav>
+        <a href="sivu1.html">Tony Ruotsalainen</a>
+        <a href="sivu2.html">Opinnot</a>
+        <a href="sivu3.html">Harrastukset</a>
+        <a href="sivu4.html">Työkokemus</a>
+        <a href="sivu5.html">Työnäytteet</a>
+        <a href="https://github.com/Deadlyweather/Deadlyweather.git">github</a>
+    </nav>
 </body>
 </html>

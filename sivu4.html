@@ -5,14 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Työkokemus</title>
-    <link rel="stylesheet" href="Commander.css">
+    <script src="Editor/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Editor/bootstrap.min.css">
 </head>
+<style>
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        background-color: black;
+        padding: 10px;
+    }
+    a {
+        color: white;
+        font-size: 18px;
+        text-shadow: 0 0 20px cyan, 0 0 20px cyan, 0 0 20px cyan, 0 0 5px white, 0 0 10px white;
+        text-decoration: none;
+    }
+    body {
+        background-color: black;
+    }
+    .dropdown-toggle {
+        background-color: black;
+        border: none;
+    }
+    .dropdown-menu {
+        background-color: black;
+        border: 2px solid cyan;
+        padding: 10px;
+    }
+    p {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 10px;
+        color: white;
+        text-shadow: 0 0 20px cyan, 0 0 20px cyan, 0 0 20px cyan, 0 0 5px white, 0 0 10px white;
+    }
+</style>
 <body>
-    <header>
+    <nav>
         <a href="index.html">Palaa</a>
-    </header>
-    <p>Olin työharjoittelussa scandic hotellissa</p>
-    <img src="Images/Scandic.png" alt="Scandic hotelli">
-    <p>Mutta en ole koskaan ollut kesätöissä</p>
+    </nav>
+    
+    <div class="dropdown dropend">
+        <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="Images/Scandic.png" alt="Scandic hotelli">
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end black">
+            <p>Olin työharjoittelussa scandic hotellissa</p>
+            <p>Mutta en ole koskaan ollut kesätöissä</p>
+        </ul>
+    </div>
+    <p>Vinkki: Tämäkin kuva on nappi!</p>
 </body>
 </html>
