@@ -32,11 +32,21 @@
     body {
         background-color: black;
     }
+    .tooltip-inner {
+        background-color: black;
+        border: 2px solid cyan;
+        color: white;
+        font-size: 18px;
+        box-shadow: 0 0 20px cyan, 0 0 20px cyan, 0 0 20px cyan, 0 0 5px white, 0 0 10px white;
+    }
+    .tooltip-arrow {
+        color: cyan;
+    }
 </style>
 <body>
     <nav>
         <a href="index.html">Palaa</a>
     </nav>
-    <img src="Images/Ohjelmointi.png" alt="Ohjelmointi">
+    <img src="Images/Ohjelmointi.png" alt="Ohjelmointi" data-bs-toggle="tooltip" data-bs-placement="top" title="Tämä kuva ei ole nappi">
 </body>
 </html>
