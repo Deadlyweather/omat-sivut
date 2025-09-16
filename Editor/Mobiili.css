@@ -1,0 +1,12 @@
+@media only screen and (max-width: 800px) {
+    img {
+        width: 25%;
+    }
+    p, li, ul {
+        font-size: 14px;
+    }
+    nav {
+        font-size: 14px;
+        
+    }
+}
